@@ -1,0 +1,71 @@
+.hero {
+	height: 100%;
+	padding-top: 57px;
+	padding-bottom: 46px;
+	padding-left: 165px;
+	padding-right: 220px;
+	@include bg-img('../images/HERO-Img.jpg');
+	
+	
+	&__nav {
+		font-size: 0;
+	}
+	&__logo {
+		display: inline-block;
+  		width: 30%;
+  		vertical-align: middle;
+	}
+	&__menu {
+		
+  		list-style: none;
+  		padding-left: 0;
+  		display: inline-block;
+  		width: 70%;
+  		font-size: 14px;
+  		text-align: right;
+  		vertical-align: middle;
+	}
+	&__menu li {
+  		display: inline-block;
+  		padding: 0 15px;
+  		
+}
+	&__menu li a {
+  		padding-bottom: 10px;
+  		color: #fffefe;
+  		font-weight: 500;
+  		text-decoration: none;
+  		transition: all .3s ease;
+  		border-bottom: 1px solid transparent;
+}
+
+&__menu li a:hover {
+		color: red;
+}
+	&__info {
+		
+		text-align: center;
+		color: #fffefe;
+		padding-top: 134px;
+	}
+	&__title {
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 60px;
+		text-transform: uppercase;
+		padding-bottom: 50px;
+	}
+
+	
+	&__text {
+		font-size: 22px;
+		font-weight: 400;
+		line-height: 30px;
+		padding-top: 50px;
+		padding-bottom: 250px;
+		
+	}
+	
+	
+
+}
